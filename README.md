@@ -10,7 +10,7 @@ In the example folder you will find a file to send a message (publishPublicStart
 Instructions in here are only for Linux (Debian/Ubuntu/Debian based). MacOS should be similar and Windows ... well, I don't know about that =(
 
 ## NodeJs 7+ and npm installed. 
-Because async is not supported previous to v7, you must be sure to have at least v7 installed. If you dont have node installed just do:
+Because async is not supported previous to NodeJS v7, you must be sure to have at least v7 installed. If you dont have NodeJS installed just do:
 
     apt install nodejs npm
 
@@ -26,7 +26,7 @@ If your version is not 7+ then you need to upgrade Node. You can do this by typi
 
 ## IOTA Javascript Library
 
-You will also need the IOTA JS library. To install it just type
+You will also need the [IOTA JS library](https://github.com/iotaledger/iota.lib.js/). To install it just type
 
     npm install iota.lib.js
 
