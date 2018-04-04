@@ -1,12 +1,12 @@
-// Thanks to Lewis -the potatoe- Freiberg for the code, we made some edits :) //
+// Replace this with absolute path to your mam.node.js
 var Mam = require('/home/carpincho/node/mam/scripts/mam.node.js')
 let IOTA = require('iota.lib.js');
-var iota = new IOTA({ provider: 'http://173.212.193.59:14265' })
+var iota = new IOTA({ provider: 'http://your.pow.enabled.node:14265' })
 
 let yourMessage = 'Aqui carpincho enviando un mensaje via MAM!'
 
 // Please supply a SEED --> 81 chars of A-Z9 //
-let seed = '0OKSJLKJFSD999SDF9SDF9ST9F9SIDMXVCNVN9GH9KG9VK99999GFDF9DF9DFU9HTK9HJKH9JHK9HJ9X9';
+let seed = '';
  // Length: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 let mamState = null;

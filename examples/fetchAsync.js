@@ -1,10 +1,12 @@
+// Replace this with absolute path to your mam.node.js
+
 var Mam = require('/home/carpincho/node/mam/scripts/mam.node.js')
 var IOTA = require('iota.lib.js')
-var iota = new IOTA({ provider: 'http://173.212.193.59:14265' })
+var iota = new IOTA({ provider: 'http://your.pow.enabled.node:14265' })
 
 // Init State
 // INSERT THE ROOT IN HERE!
-let root = 'VHN9KSGBJBHZDWHAKTOJMRGBYVYAGHCYGKAFHYGCZIDBXDHAPALTUEHYDMUYCUDVBLMYVEXJPLALYYIEV'
+let root = ''
 
 // Initialise MAM State
 var mamState = Mam.init(iota)
