@@ -8,6 +8,8 @@ Both files require minor edits as described on the comments
 
 # Requirements
 
+Instructions in here are only for Linux (Debian/Ubuntu/Debian based). MacOS should be similar and Windows ... well, I don't know about that =(
+
 ## NodeJs 7+ and npm installed. 
 Because async is not supported previous to v7, you must be sure to have at least v7 installed. If you dont have node installed just do:
 
