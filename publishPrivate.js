@@ -1,6 +1,6 @@
-var Mam = require('../lib/mam.node.js')
+var Mam = require('/home/carpincho/node/mam/scripts/mam.node.js')
 var IOTA = require('iota.lib.js')
-var iota = new IOTA({ provider: `https://testnet140.tangle.works` })
+var iota = new IOTA({ provider: 'http://173.212.193.59:14265' })
 
 // Initialise MAM State
 var mamState = Mam.init(iota)

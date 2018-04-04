@@ -1,9 +1,9 @@
-var Mam = require('/home/carpincho/node/mam2/scripts/mam.node.js')
+var Mam = require('/home/carpincho/node/mam/scripts/mam.node.js')
 var IOTA = require('iota.lib.js')
 var iota = new IOTA({ provider: 'http://173.212.193.59:14265' })
 
 // Initialise MAM State - PUBLIC
-var mamState = Mam.init(iota, 'FSDKJFSLDKFJLSKDJFLSKDJFLKSDJFLKSJDFLKSDJFLKSJDLFKJSLDKFJLSDKFJ9SDJFLSDJFLKSDJFLD')
+var mamState = Mam.init(iota)
 
 // Publish to tangle
 const publish = async packet => {
@@ -21,4 +21,4 @@ const publish = async packet => {
     console.log(resp)
 }
 
-publish('Cambio el valor del mensaje ahora')
+publish('CARPMAM')
