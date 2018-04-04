@@ -1,5 +1,7 @@
 # Masked Authenticated Messaging with mam.node.js wrapper. 
 
+![MAM](http://iotahispano.com/wp-content/uploads/MAM.png)
+
 The following repo provides simple examples on how to broadcast data through the Tangle using MAM.
 In the example folder you will find a file to send a message (publishPublicStart.js) and another to receive it by using the given root (fetchAsync.js). The code was taken from http://www.iotameetup.nl/2nd-iota-meetup-18-12-2017-amsterdam/
 Both files require minor edits as described on the comments
